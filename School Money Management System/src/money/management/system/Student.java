@@ -27,6 +27,11 @@ public class Student {
 	
 
 	/* This method used to update student's grade*/ 
+	public void payFees(int fees)
+	{
+		feesPaid+=fees;
+		School.updateTotalMoneyEarned(feesPaid);
+	}
 
 	public void setGrade(int grade) {
 		this.grade= grade;
@@ -63,6 +68,11 @@ public class Student {
 
 	public int getGrade() {
 		return grade;
+	}
+	
+	public int getRemainingFees()
+	{
+		return feesTotal-feesPaid;
 	}
 	
 	
