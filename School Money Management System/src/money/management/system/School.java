@@ -8,13 +8,13 @@ import java.util.List;
 public class School {
 	
 	private List<Teacher>teachers;
-	private List<Student> student;
+	private List<Student> students;
 	private int totalMoneyEarned;
 	private int totalMoneySpend;
 
 	public School(List<Teacher> teachers, List<Student> student) {
 		this.teachers = teachers;
-		this.student = student;
+		this.students = student;
 		totalMoneyEarned =0;
 		totalMoneySpend=0;
 	}
@@ -23,32 +23,34 @@ public class School {
 		return teachers;
 	}
 
-	public void setTeachers(List<Teacher> teachers) {
-		this.teachers = teachers;
+	public void addTeachers(Teacher teacher) {
+		teachers.add(teacher);
+		
 	}
 
 	public List<Student> getStudent() {
-		return student;
+		return students;
 	}
 
-	public void setStudent(List<Student> student) {
-		this.student = student;
+	public void addStudent(Student student) {
+		students.add(student);
+		
 	}
 
 	public int getTotalMoneyEarned() {
 		return totalMoneyEarned;
 	}
 
-	public void setTotalMoneyEarned(int totalMoneyEarned) {
-		this.totalMoneyEarned = totalMoneyEarned;
+	public void updateTotalMoneyEarned(int moneyEarned) {
+		totalMoneyEarned += moneyEarned;
 	}
 
 	public int getTotalMoneySpend() {
 		return totalMoneySpend;
 	}
 
-	public void setTotalMoneySpend(int totalMoneySpend) {
-		this.totalMoneySpend = totalMoneySpend;
+	public void updateTotalMoneySpend(int moneySpend) {
+	totalMoneySpend-=moneySpend;
 	}
 	
 
