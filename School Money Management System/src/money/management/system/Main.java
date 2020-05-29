@@ -15,7 +15,6 @@ public class Main {
 		
 		teacherList.add(abdul);
 		teacherList.add(mike);
-		teacherList.add(zeenat);
 		
 		Student muhammad = new Student(10,"Muhammad",4);
 		Student goerge = new Student(11,"Goerge",6);
@@ -27,7 +26,17 @@ public class Main {
 		studentList.add(goerge);
 		studentList.add(chu);
 		
+		muhammad.payFees(5000);
+		chu.payFees(7000);
+
+		
 		School centennial = new School(teacherList,studentList);
+		Teacher khan = new Teacher(120,"Zeenat",900);
+		
+		centennial.addTeachers(khan);
+
+		
+		
 		muhammad.payFees(3000);
 		goerge.payFees(5000);
 		System.out.println("Centennial has earned $"+""+ centennial.getTotalMoneyEarned());
@@ -37,6 +46,19 @@ public class Main {
 		abdul.receiveSalary(abdul.getSalary());
 		System.out.println("Centennial pay salary to " +abdul.getName()+" and now has $"+
 		centennial.getTotalMoneyEarned());
+		
+		mike.receiveSalary(mike.getSalary());
+		System.out.println("Centennial pay salary to " +mike.getName()+" and now has $"+
+		centennial.getTotalMoneyEarned());
+		System.out.println(chu);
+		
+		mike.receiveSalary(mike.getSalary());
+		System.out.println(mike);
+
+		
+		
+
+
 
 		
 

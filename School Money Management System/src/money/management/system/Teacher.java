@@ -44,5 +44,11 @@ public class Teacher {
 		School.updateTotalMoneySpend(salary);
 	}
 	
+	public String toString()
+	{
+		return "Teacher's name :"+ name+ " "
+				+ "Total salary earned so far $"+salaryEarned;
+	}
+	
 
 }

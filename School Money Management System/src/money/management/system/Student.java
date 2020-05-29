@@ -75,6 +75,9 @@ public class Student {
 		return feesTotal-feesPaid;
 	}
 	
-	
+	public String toString()
+	{
+		return "Student's name :"+ name+ " Total fees paid so far $"+feesPaid;
+	}
 	
 }
