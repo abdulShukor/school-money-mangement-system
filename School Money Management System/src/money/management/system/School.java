@@ -4,10 +4,9 @@ import java.util.List;
 
 /*Author Abdul Shukor*/
 
-
 public class School {
-	
-	private List<Teacher>teachers;
+
+	private List<Teacher> teachers;
 	private List<Student> students;
 	private static int totalMoneyEarned;
 	private static int totalMoneySpend;
@@ -15,8 +14,8 @@ public class School {
 	public School(List<Teacher> teachers, List<Student> student) {
 		this.teachers = teachers;
 		this.students = student;
-		totalMoneyEarned =0;
-		totalMoneySpend=0;
+		totalMoneyEarned = 0;
+		totalMoneySpend = 0;
 	}
 
 	public List<Teacher> getTeachers() {
@@ -25,7 +24,7 @@ public class School {
 
 	public void addTeachers(Teacher teacher) {
 		teachers.add(teacher);
-		
+
 	}
 
 	public List<Student> getStudent() {
@@ -34,7 +33,7 @@ public class School {
 
 	public void addStudent(Student student) {
 		students.add(student);
-		
+
 	}
 
 	public int getTotalMoneyEarned() {
@@ -50,8 +49,7 @@ public class School {
 	}
 
 	public static void updateTotalMoneySpend(int moneySpend) {
-	totalMoneyEarned-=moneySpend;
+		totalMoneyEarned -= moneySpend;
 	}
-	
 
 }
