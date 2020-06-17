@@ -16,9 +16,9 @@ public class Main {
 
 		List<Teacher> teacherList = new ArrayList<>();
 
-		teacherList.add(abdul);
-		teacherList.add(mike);
-		teacherList.add(zeenat);
+//		teacherList.add(new Teacher(100, "Abdul", 500));
+//		teacherList.add(new Teacher(110, "Mike", 700));
+//		teacherList.add(new Teacher(120, "Zeenat", 900));
 
 		/* Student Object */
 
@@ -28,9 +28,9 @@ public class Main {
 
 		List<Student> studentList = new ArrayList<>();
 
-		studentList.add(muhammad);
-		studentList.add(goerge);
-		studentList.add(chu);
+//		studentList.add( new Student(10, "Muhammad", 4));
+//		studentList.add(new Student(11, "Goerge", 6));
+//		studentList.add(new Student(11, "Chu", 12));
 
 		/* Student paying fees */
 		muhammad.payFees(5000);
@@ -43,7 +43,7 @@ public class Main {
 
 		muhammad.payFees(3000);
 		goerge.payFees(5000);
-		System.out.println("-----Centennial has earned $" + "" + centennial.getTotalMoneyEarned()+"-----");
+		System.out.println("-----Centennial has earned $" + "" + centennial.getTotalMoneyEarned() + "-----");
 
 		System.out.println("-----Making Centennial pay salary-----");
 

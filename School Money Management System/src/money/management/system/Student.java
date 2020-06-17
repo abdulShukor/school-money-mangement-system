@@ -62,8 +62,14 @@ public class Student {
 		return feesTotal - feesPaid;
 	}
 
+	@Override
 	public String toString() {
-		return "Student's name :" + name + " Total fees paid so far $" + feesPaid;
+		return "Student [id=" + id + ", name=" + name + ", grade=" + grade + ", feesPaid=" + feesPaid + ", feesTotal="
+				+ feesTotal + "]";
 	}
+
+//	public String toString() {
+//		return "Student's name :" + name + " Total fees paid so far $" + feesPaid;
+//	}
 
 }
