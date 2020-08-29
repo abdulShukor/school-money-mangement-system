@@ -42,7 +42,7 @@ public class Compare {
 
 		if (a2 > b2) {
 			a++;
-		} else if (b2 > a2) {
+		} else if (b2 > a2) {   // no need to follow the else at the end 
 			b++;
 		}
 

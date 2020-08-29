@@ -11,7 +11,7 @@ public class MinNumberInMatrix {
 
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				// if(minNumber[i][j]>max) will print max value from the matrix
+				// if(minNumber[i][j]>max) will print min value from the matrix
 				if (minNumber[i][j] < min) {
 					min = minNumber[i][j];
 				}

@@ -17,16 +17,16 @@ public class MaxElementOfEachRow {
 	}
 
 	// Method to enter matrix elements
-	private static int[][] prepareMatrix(int row, int column) {
-		Scanner sc = new Scanner(System.in);
+	private static int[][] prepareMatrix(int row, int column) {// sending single values. we send multiple the 
+		// we send array 
 		System.out.print("Enter elements of Matrix : ");
 		int matrix[][] = new int[row][column];
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < column; j++) {
-				matrix[i][j] = sc.nextInt();
+				matrix[i][j] = input.nextInt();
 			}
 		}
-		sc.close();
+		input.close();
 		// displaying matrix
 		System.out.println("Entered Matrix : ");
 		for (int i = 0; i < row; i++) {
@@ -44,11 +44,11 @@ public class MaxElementOfEachRow {
 		for (int i = 0; i < matrix.length; i++) {
 			// Start with first element of the row
 			int max = matrix[i][0];
-			for (int j = 0; j < matrix[i].length; j++) {
+			for (int j = 0; j < matrix[i].length; j++) {// here we looping equal to the outer loop length
 				if (max < matrix[i][j]) {
 					max = matrix[i][j];
 				}
-				tempArray[i] = max;
+				tempArray[i] = max;// storing matrix max value 
 			}
 		}
 		// Displaying max elements

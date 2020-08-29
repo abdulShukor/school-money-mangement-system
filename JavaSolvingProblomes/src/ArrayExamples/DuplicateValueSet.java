@@ -17,7 +17,7 @@ public class DuplicateValueSet {
 				System.out.println("Number " + number[i] + " is repeated, ");
 
 			}
-			 dupNumber.add(number[i]);
+			// dupNumber.add(number[i]);
 
 		}
 		System.out.println(dupNumber);

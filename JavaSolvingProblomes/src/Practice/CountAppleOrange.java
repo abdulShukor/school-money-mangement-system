@@ -28,7 +28,7 @@ public class CountAppleOrange {
 				// System.out.println(""+a);
 				CountNumberOFApple++;
 		}
-		int[] orange = new int[n];
+		int[] orange = new int[n];// size of the array 
 		for (int i = 0; i < n; i++) {
 			orange[i] = input.nextInt();
 			if ((b + orange[i] >= s) && (b + orange[i] <= t))

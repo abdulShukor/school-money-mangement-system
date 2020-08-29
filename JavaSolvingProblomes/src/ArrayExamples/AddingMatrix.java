@@ -13,7 +13,7 @@ public class AddingMatrix {
 		numberOfRows = input.nextInt();
 		System.out.println("Enter number of columns");
 		numnerOfColumns = input.nextInt();
-		int Matrix1[][] = new int[numberOfRows][numnerOfColumns];
+		int Matrix1[][] = new int[numberOfRows][numnerOfColumns];// size of the array 
 		int Matrix2[][] = new int[numberOfRows][numnerOfColumns];
 		int resultMatrix1[][] = new int[numberOfRows][numnerOfColumns];
 
@@ -52,7 +52,7 @@ public class AddingMatrix {
 				System.out.print(" " + Matrix2[i][j] + "\t");
 
 			}
-			System.out.println();
+			System.out.println();// new line every time the outer loop start
 
 		}
 		// Adding matrix
