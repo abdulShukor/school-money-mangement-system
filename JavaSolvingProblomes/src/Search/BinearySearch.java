@@ -18,7 +18,7 @@ public class BinearySearch {
 		int start = 0;
 		int end = input.length;
 
-		while (start < end) {
+		while (start < end) {// we use while loop because we do not know how many time we want to loop
 			int midPoint = (start + end) / 2;
 			//System.out.println("MidPoint "+ midPoint);
 			

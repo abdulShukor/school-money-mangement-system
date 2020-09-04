@@ -17,7 +17,7 @@ public class FindIndexOFArray {
 		int index = -1;
 		for (int i = 0; i < myArray.length; i++) {
 			if (myArray[i] == 200) {
-				index = i;
+				index = i; // it will replace the valve whatever is store in the integer index
 				break;
 			}
 		}
