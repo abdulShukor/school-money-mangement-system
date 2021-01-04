@@ -57,6 +57,8 @@ public class Diagnol {
 					diagnol2 += num;
 				}
 			}
+			
+			
 		}
 		return (Math.abs(diagnol1 - diagnol2));
 		// System.out.println(Math.abs(diagnol1 - diagnol2));

@@ -21,7 +21,7 @@ public class MinRowValueAndMaxColumnVlalueOfSameRow {
 				}
 			}
 		}
-		  System.out.print("The min value column number is : "+minColumn+ "\t");
+		  System.out.println("The min value column number is : "+minColumn+ "\t");
 
 		int max = array[0][minColumn];
 		for (int k = 0; k < 3; k++)
@@ -33,7 +33,7 @@ public class MinRowValueAndMaxColumnVlalueOfSameRow {
 
 			}
 		}
-		System.out.print(min + " " + max);
+		System.out.println(min + " " + max);
 	}
 
 }

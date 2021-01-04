@@ -19,6 +19,7 @@ public class Time18 {
 		Date date = DateFormatOne.parse(input.nextLine());
 
 		System.out.println(DateFormateTwo.format(date));
+		
 		System.out.println("Enter the date");
 
 		Date date1 = DateFormateTwo.parse(input.nextLine());

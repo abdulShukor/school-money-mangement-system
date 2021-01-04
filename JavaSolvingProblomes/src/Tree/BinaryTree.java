@@ -31,7 +31,7 @@ public class BinaryTree {
 //        System.out.println();
 //
 //        System.out.println(intTree.get(27));
-//        System.out.println(intTree.get(17));
+       System.out.println(intTree.get(17));
 //        System.out.println(intTree.get(8888));
 
         System.out.println(intTree.min());

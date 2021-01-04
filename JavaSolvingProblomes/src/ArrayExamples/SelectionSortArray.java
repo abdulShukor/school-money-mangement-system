@@ -7,6 +7,8 @@ public class SelectionSortArray {
 		// sorting array
 
 		int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
+		//int[] intArray = {55,5,-1,-3};
+
 
 		for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 			int largest = 0;// every time this will reset when new loop start.

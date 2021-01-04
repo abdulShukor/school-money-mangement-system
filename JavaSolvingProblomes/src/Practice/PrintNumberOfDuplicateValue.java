@@ -36,3 +36,10 @@ public class PrintNumberOfDuplicateValue {
 	}
 
 }
+
+// There are 3 ways  to call a method,(1) if you you print the result inside the method then just call
+// in the main by method name() and argument if there is any .(2) if you have return value then just print in
+// the main method.(3) if you have no return and output inside the method then you should store the method
+// in same data return type then you print it.
+
+// Method order is matter while calling the methods.

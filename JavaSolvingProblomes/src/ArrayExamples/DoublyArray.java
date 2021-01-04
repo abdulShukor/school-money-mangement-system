@@ -13,7 +13,7 @@ public class DoublyArray {
 		 * 5 2 1
 		 */
 
-		int[][] array = new int[3][3];
+		int[][] array = new int[3][3]; // just Allocating the size 
 
 		array[0][0] = 2;
 		array[0][1] = 4;

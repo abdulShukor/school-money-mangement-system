@@ -50,10 +50,14 @@ public class MaxElementOfEachRow {
 				}
 				tempArray[i] = max;// storing matrix max value 
 			}
+			System.out.println(tempArray[i]);
+
 		}
 		// Displaying max elements
 		for (int i = 0; i < tempArray.length; i++) {
 			System.out.println("Maximum element in row-" + (i + 1) + " = " + tempArray[i]);
 		}
+		
 	}
+	
 }

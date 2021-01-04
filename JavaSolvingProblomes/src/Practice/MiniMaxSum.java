@@ -10,9 +10,12 @@ public class MiniMaxSum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] input = new int[5];
+		{
 		for (int k = 0; k < 5; k++)
 			input[k] = scanner.nextInt();
+		}
 		Arrays.sort(input);
+		
 		long minNumber = 0, maxNumber = 0;
 		for (int i = 0; i < 4; i++) {
 			minNumber += input[i];
@@ -20,7 +23,7 @@ public class MiniMaxSum {
 		}
 		System.out.println(minNumber + " " + maxNumber);
 		
-		minMax(input);
+		//minMax(input);
 	}
 
 	// Arrays.sort(input); sort array very useful method:

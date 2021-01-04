@@ -7,10 +7,10 @@ public class UpperTriangleMatrix {
 		int rows, cols;
 
 		// Initialize matrix a
-		int a[][] = { { 1, 2, 3 }, { 8, 6, 4 }, { 4, 9, 6 } };
+		int a[][] = { { 1, 2, 3}, { 8, 6, 4}, { 4, 9, 6} };
 
 		// Calculates number of rows and columns present in given matrix
-		rows = a.length;
+		rows = a[0].length;
 		cols = a[0].length;
 		
 		System.out.println(rows+ " " + cols);
