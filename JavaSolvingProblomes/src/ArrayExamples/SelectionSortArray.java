@@ -12,7 +12,7 @@ public class SelectionSortArray {
 
 		for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 			int largest = 0;// every time this will reset when new loop start.
-			for (int i = 0; i < lastUnsortedIndex; i++) {
+			for (int i = 0; i <= lastUnsortedIndex; i++) {
 				if (intArray[i] > intArray[largest]) { // the less then sign will print array in descending order
 					largest = i;
 				}

@@ -22,7 +22,7 @@ public class BinearySearch {
 			int midPoint = (start + end) / 2;
 			//System.out.println("MidPoint "+ midPoint);
 			
-			if (input[midPoint] == value) {
+			if (input[midPoint] >= value) {
 				return midPoint;
 			}
 
