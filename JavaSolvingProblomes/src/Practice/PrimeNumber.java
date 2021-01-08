@@ -31,8 +31,12 @@ public class PrimeNumber {
 
 			if (increamentFactors == 2) {// if we want to print composite number just change the
 				// factors value >2 and it print composite numbers 
-				System.out.println(i);
+				System.out.println("Prime Number:"+i+"\t");
 			}
+			
+//			if (increamentFactors > 2) {
+//				System.out.println("Even Number:"+i + "\t");
+//			}
 		}
 		scan.close();
 
