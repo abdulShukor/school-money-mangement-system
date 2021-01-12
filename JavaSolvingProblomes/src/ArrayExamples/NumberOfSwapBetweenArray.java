@@ -45,6 +45,8 @@ public class NumberOfSwapBetweenArray {
 		for (int i = 0; i < a.length; i++) {
 			if (i + 1 != a[i]) {
 				int t = i;
+				
+				System.out.print(t);
 				while (a[t] != i + 1) {
 					t++;
 				}
@@ -59,3 +61,9 @@ public class NumberOfSwapBetweenArray {
 	}
 
 }
+
+/* Sample Input 1
+
+5
+2 3 4 1 5
+Sample Output 1*/
