@@ -2,7 +2,7 @@ package ArrayExamples;
 
 import java.util.Scanner;
 
-public class HackerRank {
+public class HackerRankSwap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
