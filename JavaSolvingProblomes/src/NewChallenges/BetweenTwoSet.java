@@ -22,13 +22,14 @@ public class BetweenTwoSet {
 		int c = 0;
 		for (int i = 1; i < 101; i++) {
 			int k = 0;
-			for (int j = 0; j < numberOne; j++) {
+			for (int j = 0; j < numberOne; j++) {//LCM between 3 and 4 is 12
 				if (i % a[j] == 0) {
 					k++;
+
 				}
 			}
 
-			for (int j = 0; j < numberTwo; j++) {
+			for (int j = 0; j < numberTwo; j++) {//GCM of 18,24 = 6 common factor
 				if (b[j] % i == 0) {
 					k++;
 				}

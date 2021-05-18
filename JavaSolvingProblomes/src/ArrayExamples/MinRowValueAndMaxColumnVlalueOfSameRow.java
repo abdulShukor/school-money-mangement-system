@@ -27,7 +27,7 @@ public class MinRowValueAndMaxColumnVlalueOfSameRow {
 		for (int k = 0; k < 3; k++)
 
 		{
-			if (array[k][minColumn] > minColumn) {
+			if (array[k][minColumn] > max) {
 
 				max = array[k][minColumn];
 

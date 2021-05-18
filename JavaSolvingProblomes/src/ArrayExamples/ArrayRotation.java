@@ -10,16 +10,16 @@ public class ArrayRotation {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int n = input.nextInt();
-		int k = input.nextInt();
-		int a[] = new int[n];
-		for (int a_i = 0; a_i < n; a_i++) {
-			a[a_i] = input.nextInt();
+		int sizeOfArray = input.nextInt();
+		int numberOFrotation = input.nextInt();
+		int array[] = new int[sizeOfArray];
+		for (int a_i = 0; a_i < sizeOfArray; a_i++) {
+			array[a_i] = input.nextInt();
 		}
 
-		for (int i = 0; i < n; i++) {
-			final int index = (i + k) % n;
-			System.out.print(a[index] + " ");
+		for (int i = 0; i < sizeOfArray; i++) {
+			final int index = (i + numberOFrotation) % sizeOfArray;
+			System.out.print(array[index] + " ");
 		}
 	}
 }

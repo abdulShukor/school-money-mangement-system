@@ -11,17 +11,16 @@ public class RepeatedString {
 	        String s = in.next(); // string 
 	        long n = in.nextLong(); // int 
 	        long num = n/s.length();
-	        System.out.println(":"+num);
+	       // System.out.println(":"+num);
 
 	        long rem = n%s.length();
-	        System.out.println(":"+rem);
+	        //System.out.println(":"+rem);
 
 	        long ans = 0;
 	        for (int i = 0; i < s.length(); i++) {
 	            if (s.charAt(i)=='a') {
 	                ans += num;
-	                
-	    	        System.out.println("ans"+ans);
+	    	       // System.out.println("ans"+ans);
 
 	                if (i < rem)
 	                    ans++;
@@ -30,3 +29,6 @@ public class RepeatedString {
 	        System.out.println(ans);
 	    }
 	}
+/*input aba(repeated until10) and 10
+  out put is 7*/
+ 

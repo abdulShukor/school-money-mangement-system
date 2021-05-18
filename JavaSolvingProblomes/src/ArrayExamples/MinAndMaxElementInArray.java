@@ -13,7 +13,7 @@ public class MinAndMaxElementInArray {
 		int n = input.nextInt();
 
 		int maxNumber = 0;
-		int minNumber = 10;// we coming down // or we can ask form a user input.nextInt();
+		int minNumber = Integer.MAX_VALUE;// we coming down // or we can ask form a user input.nextInt();
 		int[] num = new int[5];
 		// int num;
 

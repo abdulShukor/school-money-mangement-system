@@ -20,11 +20,11 @@ public class elseIfBreakReturn {
 		 * the current loop and the return will jump out of the loops
 		 */
 
-		/* 3. int [] array= new int[i++], [i+1], [i-1] */
+		/* 3. int [] array= new int[i++], [i+1], [i-1],[i]++,a[input.nextInt();]++*/
 
 		/*
 		 * 4. if you do not put else after if then if if get true then will also execute
-		 * after the if 5. if you are doing the modula if the the a>b the will print the
+		 * after the if 5. if you are doing the modules if the the a>b the will print the
 		 * a. example 5%4 will return 5
 		 */
 

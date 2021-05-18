@@ -9,19 +9,24 @@ public class MigratoryBirds {
 
 		Scanner input = new Scanner(System.in);
 		int n = input.nextInt();
-		int[] types = new int[n];
-		int[] dp = new int[6];
+		int[] dp = new int[n];
 		for (int types_i = 0; types_i < n; types_i++) {
-			int d = 0;
-			d = input.nextInt();
-			dp[d]++;
+			dp[input.nextInt()]++;
+			
+			//System.out.print(dp[input.nextInt()]++);
+
+			
+			//System.out.print(dp[types_i]);
 		}
 		// your code goes here
-		int max = -1;
+		int max = 0;
 		int answer = 0;
-		for (int i = 1; i < 6; i++) {
-			if (max < dp[i]) {
+		for (int i = 1; i < n; i++) {
+
+			
+			if ( dp[i]>max) {
 				max = dp[i];
+				//System.out.print(max+":");
 				answer = i;
 			}
 		}

@@ -16,8 +16,8 @@ public class ArrayManupolation {
 			int yCol = input.nextInt();
 			long value = input.nextLong();
 
-			a[xRows] += value;
-			a[yCol + 1] -= value;
+			System.out.println(a[xRows] += value);
+			System.out.println(a[yCol + 1] -= value);
 		}
 
 		long max = 0, curr = 0;

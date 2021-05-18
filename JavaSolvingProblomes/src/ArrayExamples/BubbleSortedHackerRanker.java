@@ -25,6 +25,11 @@ public class BubbleSortedHackerRanker {
 				}
 			}
 		}
+		
+		for(int i=0;i<n;i++)
+		{
+			System.out.print(intArray[i]);
+		}
 		System.out.println("Array is sorted in " + numberOfSwaps + " swaps.");
 		System.out.println("First Element: " + intArray[0]);
 		System.out.println("Last Element: " + intArray[n - 1]);

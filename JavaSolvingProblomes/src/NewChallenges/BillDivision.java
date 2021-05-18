@@ -20,8 +20,11 @@ public class BillDivision {
 		}
 		int res = input.nextInt();
 		int t = res - sum / 2;
-		System.out.println(t == 0 ? ("Bon Appetit") : t);
+		System.out.println(t == 0 ? ("Bon Appetit") : t);// storing t value
 	}
+	
+	
+	
 }
 
 /* input 4 1

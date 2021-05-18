@@ -20,11 +20,11 @@ public class BreakingRecord {
 	        for(int i=1;i<n;i++){
 	            if(score[i]>max){
 	                max=score[i];
-	                maxcount=maxcount+1;
+	                maxcount++;
 	            }
 	            if(score[i]<min){
 	                min=score[i];
-	                mincount=mincount+1;
+	                mincount++;
 	            }
 	        }
 	        System.out.println(maxcount+" "+mincount);

@@ -33,7 +33,7 @@ public class SalesByMatch {
 	}
 
 	public static int SalesByMatch(int n, int[] array) {
-		Arrays.sort(array);
+		Arrays.sort(array);// first sort the array 
 
 		int current = array[0];
 		int pair = 1;
@@ -61,5 +61,6 @@ public class SalesByMatch {
  * 
  * 10 20 20 10 10 30 50 10 20 Sample Output
  * 
- * 3
+ * 3 the max pairs in the array 2 10 1 20
+ * 
  */

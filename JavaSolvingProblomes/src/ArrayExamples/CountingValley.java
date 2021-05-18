@@ -8,7 +8,7 @@ public class CountingValley {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		input.nextInt();
+		input.nextInt(); // not storing.
 		String s = input.next();
 
 		int level = 0;
@@ -16,7 +16,7 @@ public class CountingValley {
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) == 'U') {
 				level++;
-			} else if (s.charAt(i) == 'D') {
+			} else if (s.charAt(i) == 'D') { // or can be double "".
 				if (level == 0) {
 					valleys++;
 				}
